@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Counter Dashboard</title>
+    <link rel="stylesheet" href="interactive.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="container">
+            <h1>🚀 DECODELABS</h1>
+            <button id="theme-toggle" class="theme-btn">
+                🌙 Dark Mode
+            </button>
+        </div>
+    </header>
+
+    <main class="hero">
+
+        <div class="hero-content">
+            <h2>Interactive Web Elements</h2>
+            <p>
+                Demonstrating JavaScript DOM Manipulation,
+                Event Handling and Theme Switching.
+            </p>
+        </div>
+
+        <div class="card">
+
+            <h3>Counter Dashboard</h3>
+
+            <div id="counter-val" class="counter">
+                0
+            </div>
+
+            <div class="btn-group">
+                <button id="btn-dec" class="btn danger">
+                    ➖ Decrease
+                </button>
+
+                <button id="btn-inc" class="btn success">
+                    ➕ Increase
+                </button>
+            </div>
+
+        </div>
+
+    </main>
+
+    <footer>
+        <p>Built with HTML, CSS & JavaScript 💻</p>
+    </footer>
+
+    <script src="interactive.js"></script>
+
+</body>
+</html>
