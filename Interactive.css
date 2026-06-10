@@ -1,0 +1,86 @@
+/* Base Resets */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+body {
+    background-color: #ffffff;
+    color: #333333;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* Navbar & Panels */
+.navbar {
+    padding: 15px 0;
+    border-bottom: 2px solid #0070f3;
+}
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero {
+    padding: 60px 0;
+    text-align: center;
+    background: #f0f4f8;
+}
+
+/* Dark Mode Overrides */
+body.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+}
+body.dark-mode .hero {
+    background: #1a1a1a;
+}
+body.dark-mode .card {
+    background: #222222;
+    border-color: #444444;
+}
+
+/* Components & Buttons */
+.interactive-panel {
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    background: white;
+    padding: 30px;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+}
+
+.counter-display {
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin: 20px 0;
+    color: #0070f3;
+}
+
+.btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.btn-primary { background: #0070f3; color: white; }
+.btn-secondary { background: #eaeaea; color: #333; }
+.btn-success { background: #0070f3; color: white; }
+.btn-danger { background: #ff0000; color: white; }
+.btn-group { display: flex; gap: 10px; }
