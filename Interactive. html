@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Interactive Counter Dashboard</title>
-    <link rel="stylesheet" href="interactive.css">
+    <link rel="stylesheet" href="Interactive.css">
 </head>
 <body>
 
@@ -53,7 +53,7 @@
         <p>Built with HTML, CSS & JavaScript 💻</p>
     </footer>
 
-    <script src="interactive.js"></script>
+    <script src="Interactive.js"></script>
 
 </body>
 </html>
